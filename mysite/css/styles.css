@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+    color: #40514e;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0;
+    color: #66bfbf;
+    font-family: "Sacramento", cursive;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66bfbf;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #11999e;
+}
+
+a {
+    color: #11999e;
+}
+
+hr {
+    border-width: 8px;
+    width: 5%;
+    border-style: dotted none none;
+    border-color: #c7c7c7;
+    background-color: white;
+}
+
+.top-container {
+    position: relative;
+    padding: 100px 0 0;
+    background-color: #e4f9f5;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    left: 300px;
+    top: 450px;
+    position: absolute;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile {
+    margin: 100px 0;
+}
+
+.profile-photo {
+    width: 15%;
+}
+
+.subtitle {
+    width: 35%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #40514e;
+}
+
+.skills {
+    margin: 100px 0;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.photo-programming {
+    background-color: rgb(16, 187, 187);
+    border-radius: 20%;
+    width: 15%;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.photo-guitar {
+    background-color: rgb(231, 118, 98);
+    border-radius: 20%;
+    width: 15%;
+    float: right;
+    margin: 0 0 0 30px;
+}
+
+.contact-me {
+    line-height: 1.5;
+    margin: 100px auto;
+}
+
+.par {
+    width: 38%;
+    margin: 0 auto 50px;
+}
+
+.btn {
+    padding: 0.5% 1%;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.bottom-container {
+    margin: 0;
+    padding: 50px 0 10px;
+    background-color: #66bfbf;
+}
+
+.footer-link {
+    margin: 0 20px;
+    color: #11999e;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #0d8488;
+}
+
+.footer-info {
+    color: #eaf6f6;
+    margin: 40px 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
